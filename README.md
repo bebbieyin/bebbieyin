@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Yin Yin</h1>
+<h1 align="center">Hi, I'm Yin Yin 👋</h1>
 <h2 align="center">AI Engineer & Masters in CS Student 👩🏻‍🎓</h3>
 
 - 🔭 I’m currently working on [E-commerce Data Analysis with SQL](https://github.com/bebbieyin/EcommerceDataAnalysis_SQL)
