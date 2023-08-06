@@ -27,7 +27,7 @@
 
 [Lyrics Generator with NLP](https://github.com/bebbieyin/lyrics-generator)
 
-[Fake Job Detection](https://github.com/bebbieyin/fake-job-prediction)
+[Fake Job Prediction](https://github.com/bebbieyin/fake-job-prediction)
 
 [Price Tag Data Extraction](https://github.com/bebbieyin/Price-Tag-Data-Extraction)
 
