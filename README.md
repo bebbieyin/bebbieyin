@@ -11,6 +11,8 @@
 
 [E-commerce Data Analysis with SQL](https://github.com/bebbieyin/EcommerceDataAnalysis_SQL)
 
+[Defect Classification with XGBoost](https://github.com/bebbieyin/defect_classification)
+
 [Data Visualization on Malaysian Employment](https://github.com/bebbieyin/EmploymentDataVisualization)
 
 [Heart Rate Prediction with SVM & Random Forest](https://github.com/bebbieyin/HeartRatePrediction)
