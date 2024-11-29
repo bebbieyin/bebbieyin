@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Yin Yin 👋</h1>
 <h2 align="center">AI Engineer</h3>
 
- - 📖 I'm currently researching on visual saliency and detection models.
+ - :bank: I work in FinTech. 
   
 - 💻 I have experience working in mobile development, deep learning and image processing
 
