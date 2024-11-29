@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Yin Yin 👋</h1>
-<h2 align="center">AI Engineer & Masters in CS Student 👩🏻‍🎓</h3>
+<h2 align="center">AI Engineer</h3>
 
  - 📖 I'm currently researching on visual saliency and detection models.
   
@@ -9,7 +9,7 @@
 
 <h3 align="center"> 📈 Data Science / Machine Learning Related  </h3>
 
-[E-commerce Data Analysis with SQL](https://github.com/bebbieyin/EcommerceDataAnalysis_SQL)
+<!--[E-commerce Data Analysis with SQL](https://github.com/bebbieyin/EcommerceDataAnalysis_SQL)-->
 
 [Defect Classification with XGBoost](https://github.com/bebbieyin/defect_classification)
 
