@@ -7,14 +7,14 @@ I turn AI research into production systems. My work sits at the intersection of 
 
 ### LLM / GenAI
 
-| Project | Focus | Tech |
+  | Project | Description | Tech |
 | --- | --- | --- |
 | [Research Paper RAG](https://github.com/bebbieyin/research-paper-rag) | Indexes PDF research papers into Pinecone and answers questions against the retrieved paper chunks. | FastAPI, LangChain, Hugging Face, vector embeddings, Pinecone, Docker, GCP |
 | [Multi-Agent Expenses Claim Workflow](https://github.com/bebbieyin/expense-claim-agent) | Utilize multiple agents to process employee expense claims and support the review workflow. | LangGraph, OpenAI, Streamlit, PostgreSQL, Azure, Langfuse, Docker |
 
 ### Machine Learning / Deep Learning
 
-| Project | Focus | Tech |
+| Project | Description | Tech |
 | --- | --- | --- |
 | [Music Recommendation with Spotify API](https://github.com/bebbieyin/music-recommender-with-spotifyAPI) | Builds a music recommender using Spotify data. | Spotify API, audio features, content-based filtering |
 | [Lyrics Generator](https://github.com/bebbieyin/lyrics-generator) | Generates lyrics with a character-level language model. | Character-level RNN, Keras, sequence generation |
@@ -27,7 +27,7 @@ I turn AI research into production systems. My work sits at the intersection of 
 
 ### Dev / MLOps
 
-| Project | Focus | Tech |
+| Project | Description | Tech |
 | --- | --- | --- |
 | [Music Recommender Website](https://github.com/bebbieyin/music-recommender-live) | Web app version of the music recommender. | Django, Spotify API integration, recommender UI |
 | [Model Deployment API](https://github.com/bebbieyin/Model_Deployment_API) | Deploys a machine learning model as a REST API. | Flask, REST API, model inference endpoint |
