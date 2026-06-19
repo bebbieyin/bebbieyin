@@ -10,7 +10,7 @@ I turn AI research into production systems. My work sits at the intersection of 
 | Project | Focus | Tech |
 | --- | --- | --- |
 | [Research Paper RAG](https://github.com/bebbieyin/research-paper-rag) | Indexes PDF research papers into Pinecone and answers questions against the retrieved paper chunks. | FastAPI, LangChain, Hugging Face, vector embeddings, Pinecone, Docker, GCP |
-| [Multi-Agent Expense Review](https://github.com/bebbieyin/expense-claim-agent) | Utilize multiple agents to process employee expense claims and support the review workflow. | |
+| [Multi-Agent Expenses Claim Workflow](https://github.com/bebbieyin/expense-claim-agent) | Utilize multiple agents to process employee expense claims and support the review workflow. | LangGraph, OpenAI, Streamlit, PostgreSQL, Azure, Langfuse, Docker |
 
 ### Machine Learning / Deep Learning
 
