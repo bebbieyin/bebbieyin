@@ -16,6 +16,7 @@ I turn AI research into production systems. My work sits at the intersection of 
 
 | Project | Description | Tech |
 | --- | --- | --- |
+| [Transaction Categorization](https://github.com/bebbieyin/transaction_categorization) | Develop machine learning model to categorize bank transactions and derive user-specific financial-health insights and advice. | TF-IDF, n-grams, Linear SVM, scikit-learn |
 | [Music Recommendation with Spotify API](https://github.com/bebbieyin/music-recommender-with-spotifyAPI) | Builds a music recommender using Spotify data. | Spotify API, audio features, content-based filtering |
 | [Lyrics Generator](https://github.com/bebbieyin/lyrics-generator) | Generates lyrics with a character-level language model. | Character-level RNN, Keras, sequence generation |
 | [Price Tag Data Extraction](https://github.com/bebbieyin/Price-Tag-Data-Extraction) | Extracts price and barcode information from price tag images. | OpenCV, OCR preprocessing, barcode extraction |
