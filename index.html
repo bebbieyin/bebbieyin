@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boon Yin Yin — AI Engineer</title>
+<meta name="description" content="Portfolio of Boon Yin Yin, AI Engineer building production AI systems.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <span class="brand">Boon Yin Yin</span>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="about" class="hero">
+    <h1>Boon Yin Yin</h1>
+    <p class="role">AI Engineer</p>
+    <p class="bio">AI engineer with experience developing production-ready solutions. Alongside a solid background in machine learning and deep learning research, I'm also competent as a developer with experience delivering and integrating AI models into web and mobile applications. Eager to bring value to companies by transforming ML research into scalable, real-world production systems.</p>
+    <div class="hero-links">
+      <a href="https://github.com/bebbieyin" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/bebbieyin/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:byinyin0219@gmail.com">Email</a>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Work Experience</h2>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Senior Data Scientist — AI Lens</h3>
+        <span class="entry-date">Sep 2024 – Present</span>
+      </div>
+      <p class="entry-location">Selangor, Malaysia</p>
+      <ul>
+        <li>Optimized a bank statement analysis module for a loan origination system, using OCR and NER to automate extraction of key information and transaction data — achieving a 3x increase in loan applications processed.</li>
+        <li>Implemented fraud detection algorithms to identify financial anomalies, fraud patterns, and creditworthiness from transaction history and cash flow trends.</li>
+        <li>Developed a bank-statement based credit scorecard for SME underwriting, enabling cash-flow based assessment for businesses with thin credit files.</li>
+        <li>Implemented LLM-based key information extraction with Azure AI across multiple document types, with a prompt tuning and evaluation workflow using Langfuse.</li>
+        <li>Established reproducible MLOps workflows using DVC and MLflow for data versioning and experiment tracking.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Senior Machine Learning Engineer — Bjak</h3>
+        <span class="entry-date">Nov 2023 – Aug 2024</span>
+      </div>
+      <p class="entry-location">Selangor, Malaysia</p>
+      <ul>
+        <li>Developed a robust OCR system for extracting values from vehicle grants and categorizing extracted information into relevant fields.</li>
+        <li>Led development of an intent-based chatbot using Google Dialogflow, reducing chat handling time and increasing chat volume handled.</li>
+        <li>Delivered multiple AI services as production-ready APIs and managed the deployment pipeline on Google Cloud Platform.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Artificial Intelligence Engineer — Innov8tif Solutions</h3>
+        <span class="entry-date">Jul 2021 – Nov 2023</span>
+      </div>
+      <p class="entry-location">Selangor, Malaysia</p>
+      <ul>
+        <li>Researched and developed eKYC solutions for identity and document verification, including face verification, image quality checking, segmentation, and OCR.</li>
+        <li>Designed cross-platform mobile SDKs (C++, Android/Java) for deploying deep learning models and image processing algorithms on-device.</li>
+        <li>Optimized ML models for offline mobile deployment — achieving 87% model size reduction and up to 5x speed up while maintaining accuracy.</li>
+        <li>Set up MLOps for experiment tracking and model deployment using MLflow.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Software Engineer Intern — Leader Range Technology</h3>
+        <span class="entry-date">May 2017 – Aug 2017</span>
+      </div>
+      <p class="entry-location">Penang, Malaysia</p>
+      <ul>
+        <li>Developed the backend system for an industrial machine using PHP and JavaScript, with SQL databases for data storage and retrieval.</li>
+        <li>Used image processing techniques to capture and analyze images from a moving camera for real-time monitoring.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Featured Projects</h2>
+
+    <div class="project-group">
+      <h3>LLM / GenAI</h3>
+      <div class="card-grid">
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/research-paper-rag" target="_blank" rel="noopener">Research Paper RAG</a></h4>
+          <p>Indexes PDF research papers into Pinecone and answers questions against the retrieved paper chunks, with reranking, source citations, and confidence labels.</p>
+          <p class="tags">FastAPI · LangChain · Hugging Face · Pinecone · Docker · GCP</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/expense-claim-agent" target="_blank" rel="noopener">Multi-Agent Expenses Claim Workflow</a></h4>
+          <p>A six-stage agent workflow for receipt extraction, claim validation, policy compliance, duplicate detection, and audit explanations, with human-in-the-loop review.</p>
+          <p class="tags">LangGraph · OpenAI · Streamlit · PostgreSQL · Azure · Langfuse</p>
+          <a class="card-demo" href="http://ca-expense-claim--0000004.greensand-b2c07ec4.eastus.azurecontainerapps.io/" target="_blank" rel="noopener">Live demo →</a>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/document-info-extraction" target="_blank" rel="noopener">Document Info Extraction</a></h4>
+          <p>Extracts structured fields from receipts and invoices using OCR and LLM extraction, with prompt evaluation across multiple datasets.</p>
+          <p class="tags">FastAPI · NiceGUI · Azure OpenAI · Azure Vision OCR · Langfuse</p>
+          <a class="card-demo" href="http://ca-docextract-62v503--0000002.greensand-b2c07ec4.eastus.azurecontainerapps.io/" target="_blank" rel="noopener">Live demo →</a>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="project-group">
+      <h3>Machine Learning / Deep Learning</h3>
+      <div class="card-grid">
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/transaction_categorization" target="_blank" rel="noopener">Transaction Categorization</a></h4>
+          <p>ML model to categorize bank transactions and derive user-specific financial-health insights and advice.</p>
+          <p class="tags">TF-IDF · n-grams · Linear SVM · scikit-learn</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/music-recommender-with-spotifyAPI" target="_blank" rel="noopener">Music Recommendation with Spotify API</a></h4>
+          <p>Builds a music recommender using Spotify data.</p>
+          <p class="tags">Spotify API · audio features · content-based filtering</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/lyrics-generator" target="_blank" rel="noopener">Lyrics Generator</a></h4>
+          <p>Generates lyrics with a character-level language model.</p>
+          <p class="tags">Character-level RNN · Keras</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/Price-Tag-Data-Extraction" target="_blank" rel="noopener">Price Tag Data Extraction</a></h4>
+          <p>Extracts price and barcode information from price tag images.</p>
+          <p class="tags">OpenCV · OCR preprocessing · barcode extraction</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/video-classification-with-deep-learning" target="_blank" rel="noopener">Video Crime Detection</a></h4>
+          <p>Classifies videos to identify crime-related activity.</p>
+          <p class="tags">3D CNN · CNN-LSTM · ResNet · Keras</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/crack-segmentation" target="_blank" rel="noopener">Crack Segmentation</a></h4>
+          <p>Segments wall cracks using image processing and computer vision.</p>
+          <p class="tags">OpenCV · thresholding · contour segmentation</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/LoanRepayment" target="_blank" rel="noopener">Loan Repayment Prediction and Analysis</a></h4>
+          <p>Predicts and analyzes loan repayment behavior.</p>
+          <p class="tags">Classification models · feature analysis · risk prediction</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/defect_classification" target="_blank" rel="noopener">Defect Classification with XGBoost</a></h4>
+          <p>Uses gradient boosting for defect classification.</p>
+          <p class="tags">XGBoost · feature engineering · model evaluation</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/fake-job-prediction" target="_blank" rel="noopener">Fake Job Prediction</a></h4>
+          <p>Detects fraudulent job postings with NLP and ML.</p>
+          <p class="tags">Text preprocessing · TF-IDF · fraud classification</p>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="project-group">
+      <h3>Dev / MLOps</h3>
+      <div class="card-grid">
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/music-recommender-live" target="_blank" rel="noopener">Music Recommender Website</a></h4>
+          <p>Web app version of the music recommender.</p>
+          <p class="tags">Django · Spotify API integration · recommender UI</p>
+        </article>
+
+        <article class="card">
+          <h4><a href="https://github.com/bebbieyin/Model_Deployment_API" target="_blank" rel="noopener">Model Deployment API</a></h4>
+          <p>Deploys a machine learning model as a REST API.</p>
+          <p class="tags">Flask · REST API · model inference endpoint</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>University of Malaya — Master of Computer Science (Applied Computing)</h3>
+        <span class="entry-date">2022 – 2024</span>
+      </div>
+      <p class="entry-location">Kuala Lumpur, Malaysia</p>
+      <ul>
+        <li>CGPA: 3.90/4.0</li>
+        <li>Area of research: Computer Vision, Detection, Visual Saliency, E-commerce</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Multimedia University (MMU) — B.CS. (Hons.) Artificial Intelligence</h3>
+        <span class="entry-date">2018 – 2021</span>
+      </div>
+      <p class="entry-location">Melaka, Malaysia</p>
+      <ul>
+        <li>CGPA: 3.87/4.0, First Class Honours</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>UOW Malaysia KDU University College — Diploma in Computer Studies</h3>
+        <span class="entry-date">2016 – 2018</span>
+      </div>
+      <p class="entry-location">Penang, Malaysia</p>
+      <ul>
+        <li>CGPA: 3.79/4.0, Distinction</li>
+      </ul>
+    </article>
+
+    <h3 class="sub-heading">Certifications</h3>
+    <ul class="plain-list">
+      <li><strong>CompTIA Cloud Essentials+</strong> — CompTIA, November 2024</li>
+      <li><strong>HCIA - AI</strong> — Huawei, May 2021</li>
+    </ul>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="stack-group">
+      <h3>Programming Languages</h3>
+      <p class="pill-row">
+        <span class="pill">Python</span><span class="pill">SQL</span><span class="pill">Java</span><span class="pill">C++</span>
+      </p>
+    </div>
+
+    <div class="stack-group">
+      <h3>AI / ML / LLM</h3>
+      <p class="pill-row">
+        <span class="pill">Machine Learning</span><span class="pill">Deep Learning</span><span class="pill">Generative AI</span>
+        <span class="pill">LLM Applications</span><span class="pill">Computer Vision</span><span class="pill">NLP</span>
+        <span class="pill">Document AI</span><span class="pill">OCR</span><span class="pill">Information Extraction</span>
+        <span class="pill">Named Entity Recognition</span><span class="pill">RAG</span><span class="pill">Prompt Engineering</span>
+      </p>
+    </div>
+
+    <div class="stack-group">
+      <h3>Frameworks / Platforms</h3>
+      <p class="pill-row">
+        <span class="pill">PyTorch</span><span class="pill">TensorFlow</span><span class="pill">scikit-learn</span>
+        <span class="pill">OpenCV</span><span class="pill">LangChain</span><span class="pill">Hugging Face</span>
+        <span class="pill">Pinecone</span><span class="pill">Langfuse</span><span class="pill">MLflow</span>
+        <span class="pill">Docker</span><span class="pill">FastAPI</span><span class="pill">Google Cloud</span><span class="pill">Azure</span>
+      </p>
+    </div>
+
+    <div class="stack-group">
+      <h3>Domain Knowledge</h3>
+      <p class="pill-row">
+        <span class="pill">eKYC</span><span class="pill">Customer Service Automation</span><span class="pill">Credit Risk Analytics</span>
+        <span class="pill">Scorecard Development</span><span class="pill">Fraud Detection</span><span class="pill">Cash Flow Underwriting</span>
+      </p>
+    </div>
+  </section>
+
+  <section id="publications" class="section">
+    <h2>Publications</h2>
+    <ul class="pub-list">
+      <li><strong>Cash Flow Underwriting with Bank Transaction Data: Advancing MSME Financial Inclusion in Malaysia</strong> — Chun Chet Ng, Low Wei Zeng, Jia Yu Lim, Boon Yin Yin. AAAI'26 Workshop on Agentic AI in Financial Services, 2025</li>
+      <li><strong>Salient Guided Text Detection in E-Commerce Images</strong> — Boon Yin Yin, Nurul Japar. IEEE International Conference on Image Processing (ICIP), 2024</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Get in touch</h2>
+    <div class="hero-links">
+      <a href="https://www.linkedin.com/in/bebbieyin/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/bebbieyin" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:byinyin0219@gmail.com">byinyin0219@gmail.com</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Boon Yin Yin</p>
+</footer>
+
+</body>
+</html>
