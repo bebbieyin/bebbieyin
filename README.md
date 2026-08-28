@@ -10,8 +10,8 @@ I turn AI research into production systems. My work sits at the intersection of 
   | Project | Description | Tech |
 | --- | --- | --- |
 | [Research Paper RAG](https://github.com/bebbieyin/research-paper-rag) | Indexes PDF research papers into Pinecone and answers questions against the retrieved paper chunks. | FastAPI, LangChain, Hugging Face, vector embeddings, Pinecone, Docker, GCP |
-| [Multi-Agent Expenses Claim Workflow](https://github.com/bebbieyin/expense-claim-agent) ([demo](http://ca-expense-claim--0000004.greensand-b2c07ec4.eastus.azurecontainerapps.io/)) | Utilize multiple agents to process employee expense claims and support the review workflow. | LangGraph, OpenAI, Streamlit, PostgreSQL, Azure, Langfuse, Docker |
-| [Document Info Extraction](https://github.com/bebbieyin/document-info-extraction) ([demo](http://ca-docextract-62v503--0000002.greensand-b2c07ec4.eastus.azurecontainerapps.io/)) | Extracts structured fields from receipts and invoices using OCR and LLM extraction, with prompt evaluation across multiple datasets. | FastAPI, NiceGUI, Azure OpenAI, Azure Vision OCR, NuExtract3, Langfuse, Postgres, Azure Blob Storage |
+| Multi-Agent Expenses Claim Workflow ([demo](http://ca-expense-claim--0000004.greensand-b2c07ec4.eastus.azurecontainerapps.io/)) | An agentic system that automates the end-to-end review of employee expense claims. | — |
+| Document Info Extraction ([demo](http://ca-docextract-62v503--0000002.greensand-b2c07ec4.eastus.azurecontainerapps.io/)) | Extracts structured data from receipts and invoices for downstream processing. | — |
 
 ### Machine Learning / Deep Learning
 
@@ -63,6 +63,7 @@ I turn AI research into production systems. My work sits at the intersection of 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+![DVC](https://img.shields.io/badge/DVC-13ADC7?style=for-the-badge&logo=dvc&logoColor=white)
 ![uv](https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge&logo=uv&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
