@@ -10,7 +10,8 @@ I turn AI research into production systems. My work sits at the intersection of 
   | Project | Description | Tech |
 | --- | --- | --- |
 | [Research Paper RAG](https://github.com/bebbieyin/research-paper-rag) | Indexes PDF research papers into Pinecone and answers questions against the retrieved paper chunks. | FastAPI, LangChain, Hugging Face, vector embeddings, Pinecone, Docker, GCP |
-| [Multi-Agent Expenses Claim Workflow](https://github.com/bebbieyin/expense-claim-agent) | Utilize multiple agents to process employee expense claims and support the review workflow. | LangGraph, OpenAI, Streamlit, PostgreSQL, Azure, Langfuse, Docker |
+| [Multi-Agent Expenses Claim Workflow](https://github.com/bebbieyin/expense-claim-agent) ([demo](http://ca-expense-claim--0000004.greensand-b2c07ec4.eastus.azurecontainerapps.io/)) | Utilize multiple agents to process employee expense claims and support the review workflow. | LangGraph, OpenAI, Streamlit, PostgreSQL, Azure, Langfuse, Docker |
+| [Document Info Extraction](https://github.com/bebbieyin/document-info-extraction) ([demo](http://ca-docextract-62v503--0000002.greensand-b2c07ec4.eastus.azurecontainerapps.io/)) | Extracts structured fields from receipts and invoices using OCR and LLM extraction, with prompt evaluation across multiple datasets. | FastAPI, NiceGUI, Azure OpenAI, Azure Vision OCR, NuExtract3, Langfuse, Postgres, Azure Blob Storage |
 
 ### Machine Learning / Deep Learning
 
