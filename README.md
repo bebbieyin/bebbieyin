@@ -3,6 +3,8 @@
 
 I turn AI research into production systems. My work sits at the intersection of model development and software delivery: building data processing pipelines, researching AI solutions, software integration and creating MLOps workflows.
 
+🔗 **Portfolio:** [bebbieyin.github.io/bebbieyin](https://bebbieyin.github.io/bebbieyin/)
+
 ## Featured Projects
 
 ### LLM / GenAI
