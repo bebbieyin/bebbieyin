@@ -33,7 +33,11 @@ I turn AI research into production systems. My work sits at the intersection of 
 
 | Project | Description | Tech |
 | --- | --- | --- |
+<<<<<<< HEAD
 | [Rumah Watch — Affordable Housing Tracker](https://github.com/bebbieyin/affordable-housing-tracker) | Helps first-home buyers in Malaysia find affordable housing open for application, with official portal data, map filters, scheme guides and Telegram alerts. | React, TypeScript, Python, Azure Functions, Azure SQL, Terraform, GitHub Actions |
+=======
+| [RumahWatch](https://rumahwatch.com/) | — | — |
+>>>>>>> 01bb5d5 (Add RumahWatch website link)
 | [Music Recommender Website](https://github.com/bebbieyin/music-recommender-live) | Web app version of the music recommender. | Django, Spotify API integration, recommender UI |
 | [Model Deployment API](https://github.com/bebbieyin/Model_Deployment_API) | Deploys a machine learning model as a REST API. | Flask, REST API, model inference endpoint |
 
